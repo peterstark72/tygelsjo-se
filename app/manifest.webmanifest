@@ -1,0 +1,14 @@
+{
+    "name": "Tygelsjö och Västra Klagstorp i Malmö",
+    "short_name": "Tygelsjö.se",
+    "description": "Webbsida för historisk information om Tygelsjö och Västra Klagstorp i Malmö.",
+    "start_url": "/",
+    "display": "browser",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "sizes": "any",
+        "type": "image/png"
+      }
+    ]
+}

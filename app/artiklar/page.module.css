@@ -1,0 +1,54 @@
+@media screen and (min-width: 768px) {
+    .page {
+        width: 50%;
+        margin: 3rem auto;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        width: 95%;
+        margin: 3rem auto;
+        padding: 0;
+        overflow-x: hidden;
+
+    }
+}
+
+
+
+.page ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.page ol li {
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.page ol li h3 {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+.page ol li p {
+    margin: 0;
+    padding: 0.5rem 3rem;
+    line-height: 1.3rem;
+}
+
+.page ol li::after {
+    content: "***";
+
+}
+
+.page h1 {
+    margin: 0;
+    padding: 0.5rem 0;
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "kungorelser",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "postort",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "publiceringsdatum",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "address",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "kungorelser",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "publiceringsdatum",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "address",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "kungorelser",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "stadsdel",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "publiceringsdatum",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "address",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

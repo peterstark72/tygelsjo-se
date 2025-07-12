@@ -1,0 +1,53 @@
+@media screen and (max-width: 600px) {
+    .page {
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (min-width: 601px) {
+    .page {
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+    }    
+}
+
+
+.page p {
+    line-height: 1.3rem;
+}
+
+.item th {
+    text-align: left;
+}
+
+.items {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 0;
+
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.items table {
+    display: table;
+    border-collapse: collapse;
+}
+
+.items th, .items td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.items caption {
+    caption-side: bottom;
+    font-style: italic;
+    color: #666;
+    padding: 0.5rem 0;
+    text-align: left;
+    font-size: 0.9rem;
+}

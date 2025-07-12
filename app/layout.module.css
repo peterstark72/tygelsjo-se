@@ -1,0 +1,81 @@
+.footer {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0;
+  font-size: 0.8rem;
+  background-color: #283618;
+  color: #FEFAE0;
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .topbar nav a h1.title {
+    display: none;
+  }
+}
+
+/*
+  * Topbar styles
+  * This is the top bar at the top of the page.
+  * It contains the logo and the title.
+*/
+
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 2rem;
+  width: 100%;
+  background-color: #606C38;  
+  padding: 0.2rem 0;
+  margin: 0;
+  min-width: 0;
+}
+
+.topbar nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.topbar nav a {
+  display: inline-block;
+  text-decoration: none;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.topbar nav figure {
+  display: inline-block;
+  height: 100%;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar nav figure img {
+  display: inline;
+  max-height: 100%;
+  width: auto;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.topbar nav h1 {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FEFAE0;
+  margin: 0 1rem 0 0;
+  padding: 0 0.5rem;
+  min-width: 0;
+}
+
