@@ -2,12 +2,14 @@ import { Firestore, Filter,  QuerySnapshot, Timestamp} from '@google-cloud/fires
 import Link from 'next/link';
 import { Metadata } from 'next';
 import styles from './page.module.css';
+import { GCLOUD_KEY_FILE } from '@/gcloud/env';
+
 
 const seLocale = new Intl.Locale("sv-SE")
 
 const db = new Firestore({
     projectId: 'tygelsjo-se',
-    keyFilename: './tygelsjo-se-a3f95eca469a.json',
+    keyFilename: GCLOUD_KEY_FILE, // Ensure you set the environment variable GCLOUD_KEY_FILE to your service account key file path
 });
 
 

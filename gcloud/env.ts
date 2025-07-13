@@ -1,0 +1,1 @@
+export const GCLOUD_KEY_FILE = process.env.GCLOUD_KEY_FILE || '';
