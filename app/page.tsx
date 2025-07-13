@@ -45,8 +45,7 @@ export default async function Home() {
 					<blockquote className={styles.blockquote}>
 					Tygelsjö utgör ett härligt slätland som sakta sluttar ned mot havet, och som från söder mot norr genomskärs av motorvägen från Trelleborg, Vellinge och Höllviken. Det hela visar sig för ögat såsom ett frukbart sädesland som, långt ifrån att vara enformigt, tvärtom som följd av den allmänna pilplanteringen i alla vallar och diken mer har utseendet av en stor trädgård än av ett vanligt åkerland.
 					</blockquote>
-					<p> - Från Georg Gustafsson sockenbeskrivning 1850-talet.
-						</p>					
+					<p>- Från Georg Gustafsson sockenbeskrivning 1850-talet.</p>					
 				</div>
 
 				<div className={styles.about}>
@@ -54,7 +53,7 @@ export default async function Home() {
 					Denna sida handlar om Tygelsjö och Västra Klagstorp, två orter i den sydvästraste delen av Malmö kommun i Skåne län. Här hittar du artiklar, bilder och information om byarnas historia, kultur och samhälle.
 					</p>
 					<p>
-					Sida är skapad av Peter Stark, som bor i Tygelsjö. Peter är intresserad av lokalhistoria och vill dela med sig av kunskap och information om Tygelsjö och Västra Klagstorp. Om du har frågor eller vill bidra med material, kan du kontakta Peter via <Link href="https://www.instagram.com/tygelsjo.se/">Instragram</Link>. 
+					Sida är skapad av Peter Stark, som bor i Tygelsjö. Om du har frågor eller vill bidra med material, kan du kontakta Peter via <Link href="https://www.instagram.com/tygelsjo.se/">@tygelsjo.se</Link> (Instagram). 
 					</p>
 				</div>
 
