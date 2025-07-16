@@ -1,5 +1,22 @@
 import { PortableTextBlock } from '@portabletext/types';
 
+export type EventType = {
+    _id: string;
+    name: string;
+    start: string;
+    end: string;
+    place: {
+        name: string;
+        website: string;
+        location: {
+            lat: number;
+            lng: number;
+        }
+    };
+    description: string;
+    link: string;
+    image: AssetType;
+}
 
 export type AuthorType = {
     _id: string;

@@ -58,7 +58,7 @@ export default function RootLayout({
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
                 ></Script>
             </head>
-            <body className={`${newsReaderSerif.variable}`}>
+            <body className={`${newsReaderSerif.variable}` + " " + styles.body  }>
                 <header className={styles.topbar}>
                 <nav>
                     <Link href="/">
@@ -70,6 +70,7 @@ export default function RootLayout({
                 </nav>
                 <nav className={styles.nav}>
                     <h1><Link href="/artiklar">Artiklar</Link></h1>
+                    <h1><Link href="/kalendarium">Kalendarium</Link></h1>
                 </nav>
                 <nav className={styles.nav}>
                     <Link href="https://www.facebook.com/tygelsjo/">
@@ -77,7 +78,9 @@ export default function RootLayout({
                     </Link>
                 </nav>
                 </header>
+                <main className={styles.main}>
                 {children}
+                </main>
                 <footer className={styles.footer}>© 2025 Peter Stark. Alla rättigheter förbehållna. Webbsidan är byggd i Tygelsjö. Källkoden är öppen på <Link href="https://github.com/peterstark72/tygelsjo-se">Github</Link>.</footer>
             </body>
 

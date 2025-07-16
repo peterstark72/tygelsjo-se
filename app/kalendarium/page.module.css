@@ -1,0 +1,47 @@
+.page {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0
+}
+
+.events {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+
+.events > li {
+    width: 30%;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+       width: 95%;
+        margin: 0 auto;
+        padding: 0
+    }
+    .events {
+        flex-direction: column;
+    }
+    .events > li {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        min-width: 0;
+    }
+}
+
+.events > li > h2,
+.events > li > p {
+    margin: 0;
+    padding: 0.5rem;
+}
