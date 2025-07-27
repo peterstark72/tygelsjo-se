@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import styles from './page.module.css';
 import { GCLOUD_KEY_FILE } from '@/gcloud/env';
 
+export const revalidate = 3600 // Revalidate every hour
 
 const seLocale = new Intl.Locale("sv-SE")
 
