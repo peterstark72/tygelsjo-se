@@ -8,7 +8,8 @@ export const revalidate = 3600 // 1 hour
 
 const dateFormatOptions : Intl.DateTimeFormatOptions = {
   dateStyle: "full",
-  timeStyle: "short"
+  timeStyle: "short",
+  timeZone: "Europe/Stockholm"
 };
 
 const dateTimeFormat: Intl.DateTimeFormat = new Intl.DateTimeFormat("sv-SE", dateFormatOptions)
